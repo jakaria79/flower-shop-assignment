@@ -1,0 +1,202 @@
+/* header style */
+header{
+    height: 650px;
+    background-color: #E5D1D3;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px ;
+    padding-right: 150px;
+}
+
+.img-header{
+    width: 403px;
+}
+
+.text-primary{
+    width: 800px;
+}
+
+button{
+    background-color: #E55473;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+/* Nav  style */
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 200px;
+}
+
+.nav-title {
+   color: #181818;
+   font-size: 45px;
+   font-weight: 600;
+}
+
+nav>ul {
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+   font-size:larger;
+}
+
+nav li {
+   list-style: none;
+   margin-right: 50px;
+}
+
+nav a {
+   text-decoration: none;
+   color: #474747;
+}
+
+/* section-1 style */
+.text-secondery{
+    text-align: center;
+}
+.text-secondery p{
+    font-size: small;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 338px;
+    height: 380px;
+    background-color: #f0f0f0;
+    border-radius: 50%; 
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; 
+    margin-top: 30px;
+  }
+
+  .img-container img{
+    height: 300px;
+    padding-bottom: 0;
+  }
+
+  .box-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+  }
+
+  .container-bg-1{
+     background-color:#EED3E0;
+  }
+
+  .container-bg-2{
+    background-color:#AED8DB;
+ }
+
+ .container-bg-3{
+    background-color:#D0E0C0;
+ }
+
+ /* banner-section style */
+ .banner-section{
+    height: 480px;
+    margin-top: 100px;
+
+ }
+ .banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    background-color:#F2EAEC ;
+ }
+
+ .text-info{
+    text-align: center;
+    margin: auto 0;
+ }
+ /* instra-section style */
+
+ .instra-img{
+  text-align: center;
+  margin-bottom: 100px;
+ }
+
+ .instra-img img{
+   width: 275px;
+   padding-right: 15px;
+   margin-top: 50px;
+ }
+
+ .instra-img .image{
+   padding-right: 0;
+ }
+ /* contact-section style */
+ .contact-section{
+    text-align: center ;
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    margin-left: 90px ;
+    margin-right: 90px ;
+    height: 300px;
+    padding-top: 100px  ;
+    
+ }
+
+ .contact-section input{
+    width: 600px;
+    height: 34px;
+    border-radius: 10px;
+ }
+
+ .form{
+    display: flex;
+    justify-content: space-evenly;
+ }
+/* footer style */
+ footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 250px;
+    padding-top: 100px;
+    margin-top: 100px;
+ }
+
+ footer p{
+    font-size: small;
+ }
+ .copyright{
+    font-size: smaller;
+ }
+ .text{
+    color: #E55473;
+ }
+/* social style */
+.social{
+   display: flex;
+   justify-content:center;
+   align-self: center;
+   text-align: center;
+   margin-top: 50px;
+   
+}
+.social-section{
+   background-color: aquamarine;
+   height:250px;
+   margin-left: 90px;
+   margin-right: 90px;
+   margin-bottom: 100px;
+   padding-top: 50px;
+}
+.social .faceBook{
+  padding-right: 30px;
+}
+.social .youtube{
+   padding-right: 30px;
+ }
